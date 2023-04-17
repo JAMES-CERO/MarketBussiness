@@ -9,15 +9,17 @@ app.set('views', __dirname + "/views")
 //controllers
 app.use('/design', require('./controllers/design')) -- //import design.js
 
+//Engines & views 
+app.set('view engine', 'jsx')
+app.engine('jsx', require('express-react-views').createEngine())
 
 //Routes
-
 app.get('/', (req, res) => {
-    res.send('Hello World')
+    res.render('Home')
 })
 
 app.get('*', (req, res) => {
-    res.status(404).send('<h1>You have reach a 404</h1>')
+    res.status(404).render('Error')
 })
 
 app.listen(process.env.PORT, () => {

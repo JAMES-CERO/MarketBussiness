@@ -1,11 +1,12 @@
 const React = require('react')
+import Def from './Default'
 
 const Home = () => {
     return (
-        <div>
+        <Def>
             <h1>
                 Welcome To the Market!
             </h1>
-        </div>
+        </Def>
     )
 }
