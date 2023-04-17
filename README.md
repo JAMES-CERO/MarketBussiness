@@ -7,7 +7,8 @@ this project is built as a commercail webpage.
 You will be able to surf betwwen the page
 buy & check the characteristics of each item
 
-# # #
+### Routes 
+
 |    Method    |     Path                     |    Purpouse                                         |
 | :---         |     :---:                    |          ---:                                       |
 |    GET       |      /                       |  Home page                                          |
@@ -22,4 +23,12 @@ buy & check the characteristics of each item
 |    DELETE    |  ###/designs/:id/review/:reviewId |  Delete a review (comment) about a particular item   |
 |    GET       |       *                      |   404 page (matches any route not defined above)    |
 
+## Designs
+
+| key      | Data - type  |
+|   :---:  |    :---:     | 
+| id       | Odject ID    |
+| Name     | String       |
+| Picture  | String       |
+| About    | String       |
 
