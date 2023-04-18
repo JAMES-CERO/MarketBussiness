@@ -10,3 +10,5 @@ const Home = () => {
         </Def>
     )
 }
+
+export default Home

@@ -15,11 +15,11 @@ app.engine('jsx', require('express-react-views').createEngine())
 
 //Routes
 app.get('/', (req, res) => {
-    res.render('Home')
+    res.render('home')
 })
 
 app.get('*', (req, res) => {
-    res.status(404).render('Error')
+    res.status(404).render('error')
 })
 
 app.listen(process.env.PORT, () => {

@@ -1,5 +1,5 @@
 const React = require("react")
-const Def = require("./Default")
+const Def = require('./Default')
 
 function Error () {
     return (
@@ -13,4 +13,4 @@ function Error () {
     )
 }
 
-module.exports = Error
+export default Error
