@@ -7,7 +7,7 @@ const app = express()
 app.set('views', __dirname + "/views")
 
 //controllers
-app.use('/design', require('./controllers/design')) -- //import design.js
+app.use('/design', require('./controllers/design'))  //import design.js
 
 //Engines & views 
 app.set('view engine', 'jsx')
