@@ -8,14 +8,12 @@ app.set('views', __dirname + "/views")
 
 //controllers
 app.use('/design', require('./controllers/design'))  //import design.js
+app.use('/checkout',require('./controllers/checkout'))
 
 //Engines & views 
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static('public'))
-
-//controllers
-app.use('/design', require('./controllers/design'))  //import design.js
 
 //Routes
 app.get('/', (req, res) => {
