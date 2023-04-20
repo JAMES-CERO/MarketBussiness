@@ -9,7 +9,7 @@ const Home = () => {
                     Welcome To the Market!
               </h1>
               <a href="/design">
-                    <button className="btn btn-primary">Places Page</button>
+                    <button className="btn btn-primary">Design Page</button>
                 </a>
             </main>
         </Default>

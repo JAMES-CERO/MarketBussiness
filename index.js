@@ -12,6 +12,7 @@ app.use('/design', require('./controllers/design'))  //import design.js
 //Engines & views 
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
+app.use(express.static('public'))
 
 //controllers
 app.use('/design', require('./controllers/design'))  //import design.js

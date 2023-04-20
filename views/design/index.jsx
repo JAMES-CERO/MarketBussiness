@@ -15,7 +15,10 @@ function Index (data) {
     return (
         <Default>
             <main>
-                <h1> Places Index Page</h1>
+                <h1> Index Page</h1>
+                <a href="/">
+                    <button className="btn btn-primary">Back Page</button>
+                </a>
                 {designFormatted}
             </main>
         </Default>
