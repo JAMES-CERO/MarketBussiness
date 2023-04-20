@@ -1,15 +1,15 @@
 const React = require("react")
-const Def = require("../Default")
+import Default from "../Default"
 
 function Index (data) {
 
 
     return (
-        <Def>
+        <Default>
             <main>
                 <h1> Places Index Page</h1>
             </main>
-        </Def>
+        </Default>
     )
 }
 

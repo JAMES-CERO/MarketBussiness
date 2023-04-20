@@ -1,13 +1,15 @@
 const React = require('react')
-import Def from './Default'
+import Default from './Default'
 
 const Home = () => {
     return (
-        <Def>
-            <h1>
-                Welcome To the Market!
-            </h1>
-        </Def>
+        <Default>
+            <main>
+               <h1 style={{'color': 'black'}}>
+                    Welcome To the Market!
+              </h1>
+            </main>
+        </Default>
     )
 }
 

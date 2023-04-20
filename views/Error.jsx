@@ -1,16 +1,17 @@
-const React = require("react")
-const Def = require('./Default')
 
-function Error () {
+const React = require("react")
+import Default from "./Default"
+
+function error () {
     return (
-        <Def>
+        <Default>
             <main>
                 <h1>404: PAGE NOT FOUND</h1>
                 <p> Oops!, sorry, We can't find this page</p>
                 <img src="https://http.cat/404" alt="cat 404 error"></img>
             </main>
-        </Def>
+        </Default>
     )
 }
 
-export default Error
+export default error
