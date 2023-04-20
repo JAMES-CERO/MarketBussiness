@@ -2,7 +2,6 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-const path = require('path')
 
 //define the view engine  - views
 app.set('views', __dirname + "/views")
