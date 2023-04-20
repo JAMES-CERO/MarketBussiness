@@ -5,7 +5,7 @@ function Index (data) {
    
         let designFormatted = data.design.map((design) => {
           return (
-            <div>
+            <div className="col-6">
               <h2>{design.name}</h2>
               <img src={design.pic} alt={design.name}/>
             </div>
@@ -17,9 +17,12 @@ function Index (data) {
             <main>
                 <h1> Index Page</h1>
                 <a href="/">
-                    <button className="btn btn-primary">Back Page</button>
+                    <button className="btn btn-primary">Back Home Page</button>
                 </a>
-                {designFormatted}
+                <hr/>
+                <div className="row">
+                    {designFormatted}
+                </div>
             </main>
         </Default>
     )
