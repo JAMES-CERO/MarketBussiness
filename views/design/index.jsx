@@ -16,9 +16,7 @@ function Index (data) {
         <Default>
             <main>
                 <h1> Index Page</h1>
-                <a href="/">
-                    <button className="btn btn-primary">Back Home Page</button>
-                </a>
+               
                 <hr/>
                 <div className="row">
                     {designFormatted}

@@ -7,9 +7,7 @@ function error () {
         <Default>
             <main>
                 <h1>404: PAGE NOT FOUND</h1>
-                <a href="/design">
-                    <button className="btn btn-primary">Go Back</button>
-                </a>
+            
                 <p> Oops!, sorry, We can't find this page</p>
                 <img src="https://http.cat/404" alt="cat 404 error"></img>
             </main>

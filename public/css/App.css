@@ -5,4 +5,8 @@ body{
 h1{
   color: blue;
 }
-
+.logoNavBar{
+  width: 80px;
+  height: 40px;
+  padding-left: 20px;
+}
